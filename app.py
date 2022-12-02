@@ -5,9 +5,9 @@ import requests
 import hmac
 import hashlib
 
-
+from flask_cors import CORS
 app = Flask(__name__)
-
+CORS(app)
 @app.route("/pay/payATM",methods = ['POST'])
 def payATM():
     if request.method == 'POST':

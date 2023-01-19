@@ -18,8 +18,8 @@ def payATM():
         accessKey = "F8BBA842ECF85"
         secretKey = "K951B6PE1waDMi640xX08PD3vg6EkVlz"
         orderInfo = "pay with ATM"
-        redirectUrl = "http://localhost:3000/cart"
-        ipnUrl = "http://localhost:3000/cart"
+        redirectUrl = "https://m5oomoiu43.execute-api.us-east-2.amazonaws.com/cart"
+        ipnUrl = "https://m5oomoiu43.execute-api.us-east-2.amazonaws.com/cart"
         amount = str(mo)
         orderId = str(uuid.uuid4())
         requestId = str(uuid.uuid4())
@@ -66,8 +66,8 @@ def payMOMO():
         accessKey = "F8BBA842ECF85"
         secretKey = "K951B6PE1waDMi640xX08PD3vg6EkVlz"
         orderInfo = "pay with MoMo"
-        redirectUrl = "http://localhost:3000/cart"
-        ipnUrl = "http://localhost:3000/cart"
+        redirectUrl = "https://m5oomoiu43.execute-api.us-east-2.amazonaws.com/cart"
+        ipnUrl = "https://m5oomoiu43.execute-api.us-east-2.amazonaws.com/cart"
         amount = str(money)
         orderId = str(uuid.uuid4())
         requestId = str(uuid.uuid4())
